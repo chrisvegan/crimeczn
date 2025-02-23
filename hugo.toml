@@ -1,0 +1,9 @@
+baseURL = "https://yourusername.github.io/crimeczn/"
+languageCode = "en-us"
+title = "$CRIMECZN - Crime Season Salvation"
+theme = "risotto"
+
+[params]
+  author = "The $CRIMECZN Team"
+  description = "Join us in exposing scams and building a fairer crypto future."
+  ca = "DmQ6ZD1HGACksWNc4md4RwyB4MgCVah8oFL1XEdGmoon"
