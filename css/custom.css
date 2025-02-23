@@ -1,1 +1,40 @@
-/* Override this file to customise the theme's CSS for your site */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('path/to/hero-image.jpg') no-repeat center center/cover;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.about, .roadmap, .community, .cta {
+    padding: 20px;
+    text-align: center;
+}
